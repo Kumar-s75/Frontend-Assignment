@@ -1,8 +1,29 @@
-<!-- //for this assignment i have to just build this page that is homepage -->
-
 <template>
-  <div class="text-center py-20">
-    <h1 class="text-4xl font-bold">Welcome to My Nuxt App</h1>
-    <p class="mt-4 text-lg text-gray-600">Built with Nuxt 3 + Vue 3 + Tailwind</p>
+  <div>
+    <Navbar />
+    <HeroSection />
+    <Trusted />
+    <WhatIs />
+    <OpenFeatureSection />
+    <ControlPower />
+    <Features />
+    <ComingSoon />
+    <Growth />
+    <UseIntelliToggle />
+    <HeroCtaFooter />
   </div>
 </template>
+
+<script setup>
+import Navbar from '~/components/Navbar.vue'
+import HeroSection from '~/components/HeroSection.vue'
+import Trusted from '~/components/Trusted.vue'
+import WhatIs from '~/components/WhatIs.vue'
+import OpenFeatureSection from '~/components/OpenFeatureSection.vue'
+import ControlPower from '~/components/ControlPower.vue'
+import Features from '~/components/Features.vue'
+import ComingSoon from '~/components/ComingSoon.vue'
+import Growth from '~/components/Growth.vue'
+import UseIntelliToggle from '~/components/UseIntelliToggle.vue'
+import HeroCtaFooter from '~/components/HeroCtaFooter.vue'
+</script>
