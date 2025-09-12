@@ -1,6 +1,6 @@
 <template>
   <section class="py-[120px] bg-white">
-    <div class="max-w-[1920px] mx-auto px-[120px]">
+    <div class="max-w-[1920px] mx-auto px-[120px] xl:px-[120px] lg:px-[80px] sm:px-6">
       <!-- Header per Figma -->
       <div class="text-center mb-12">
         <h2 class="text-[40px] font-bold text-transparent bg-clip-text text-gradient-hero">Dart-Powered Feature Flag</h2>
@@ -11,38 +11,40 @@
       </div>
 
       <!-- Comparison table card -->
-      <div class="bg-[#EDECF6] rounded-[8px] shadow-[0_0_10px_10px_rgba(0,0,0,0.05)] border border-[#42389e] overflow-hidden">
+      <div class="bg-[#EDECF6] rounded-[8px] shadow-[0_0_10px_10px_rgba(0,0,0,0.05)] border border-[#42389e] overflow-hidden sm:overflow-x-auto">
+        <div class="min-w-[768px]">
         <!-- header row -->
         <div class="bg-gradient-to-b from-[#42389e] to-[#0f1026] text-[#FEFEFF] flex">
-          <div class="w-[378px] p-[10px] font-sans text-[24px] font-semibold">Features</div>
-          <div class="flex-1 p-[10px] text-center font-sans text-[24px] font-semibold">IntelliToggle</div>
-          <div class="flex-1 p-[10px] text-center font-sans text-[24px] font-semibold">Other Feature Flag</div>
+          <div class="w-[378px] p-[10px] font-sans text-[24px] font-semibold lg:w-[320px] lg:text-[22px]">Features</div>
+          <div class="flex-1 p-[10px] text-center font-sans text-[24px] font-semibold lg:text-[22px]">IntelliToggle</div>
+          <div class="flex-1 p-[10px] text-center font-sans text-[24px] font-semibold lg:text-[22px]">Other Feature Flag</div>
         </div>
+      </div>
 
         <!-- rows -->
         <div class="divide-y divide-[#EDECF6]">
           <div class="flex items-center">
-            <div class="w-[378px] p-[10px] font-sans text-[18px] font-semibold text-[#5F5F60]">Dart-native SDK & server</div>
+            <div class="w-[378px] p-[10px] font-sans text-[18px] font-semibold text-[#5F5F60] lg:w-[320px]">Dart-native SDK & server</div>
             <div class="flex-1 p-[10px] flex justify-center"><img src="/images/tick-01.svg" alt="yes" class="w-5 h-5" /></div>
             <div class="flex-1 p-[10px] flex justify-center"><img src="/images/cancel-01.svg" alt="no" class="w-5 h-5" /></div>
           </div>
           <div class="flex items-center">
-            <div class="w-[378px] p-[10px] font-sans text-[18px] font-semibold text-[#5F5F60]">End-to-end type safety</div>
+            <div class="w-[378px] p-[10px] font-sans text-[18px] font-semibold text-[#5F5F60] lg:w-[320px]">End-to-end type safety</div>
             <div class="flex-1 p-[10px] flex justify-center"><img src="/images/tick-01.svg" alt="yes" class="w-5 h-5" /></div>
             <div class="flex-1 p-[10px] flex justify-center"><img src="/images/cancel-01.svg" alt="no" class="w-5 h-5" /></div>
           </div>
           <div class="flex items-center">
-            <div class="w-[378px] p-[10px] font-sans text-[18px] font-semibold text-[#5F5F60]">AI-assisted roll-outs & cleanup</div>
+            <div class="w-[378px] p-[10px] font-sans text-[18px] font-semibold text-[#5F5F60] lg:w-[320px]">AI-assisted roll-outs & cleanup</div>
             <div class="flex-1 p-[10px] flex justify-center"><img src="/images/tick-01.svg" alt="yes" class="w-5 h-5" /></div>
             <div class="flex-1 p-[10px] flex justify-center"><img src="/images/cancel-01.svg" alt="no" class="w-5 h-5" /></div>
           </div>
           <div class="flex items-center">
-            <div class="w-[378px] p-[10px] font-sans text-[18px] font-semibold text-[#5F5F60]">A/B testing built-in</div>
+            <div class="w-[378px] p-[10px] font-sans text-[18px] font-semibold text-[#5F5F60] lg:w-[320px]">A/B testing built-in</div>
             <div class="flex-1 p-[10px] flex justify-center"><img src="/images/tick-01.svg" alt="yes" class="w-5 h-5" /></div>
             <div class="flex-1 p-[10px] flex justify-center"><img src="/images/cancel-01.svg" alt="no" class="w-5 h-5" /></div>
           </div>
           <div class="flex items-center">
-            <div class="w-[378px] p-[10px] font-sans text-[18px] font-semibold text-[#5F5F60]">Dart-Powered SDKs</div>
+            <div class="w-[378px] p-[10px] font-sans text-[18px] font-semibold text-[#5F5F60] lg:w-[320px]">Dart-Powered SDKs</div>
             <div class="flex-1 p-[10px] flex justify-center"><img src="/images/tick-01.svg" alt="yes" class="w-5 h-5" /></div>
             <div class="flex-1 p-[10px] flex justify-center"><img src="/images/cancel-01.svg" alt="no" class="w-5 h-5" /></div>
           </div>

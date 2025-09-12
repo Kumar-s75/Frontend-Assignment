@@ -1,11 +1,11 @@
 <template>
   <section class="py-[120px] bg-white">
-    <div class="max-w-[1920px] mx-auto px-[120px]">
+    <div class="max-w-[1920px] mx-auto px-[120px] lg:px-[80px] sm:px-6">
       <!-- Section Title -->
       <div class="mb-[54px]">
         <h2 class="text-center text-[40px] font-bold text-transparent bg-clip-text text-gradient-hero">Control & Power-focused</h2>
       </div>
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-[95px]">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-[95px] sm:grid-cols-1">
         <!-- Connect -->
         <div>
           <div class="rounded-[12px] bg-[#1A1C3D] p-2 shadow-[0_0_10px_10px_rgba(0,0,0,0.05)] border border-[#42389e]/50">
