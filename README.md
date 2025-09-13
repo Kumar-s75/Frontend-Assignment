@@ -1,4 +1,4 @@
-IntelliToggle Marketing Site
+Intellitoggle-Homepage
 
 Live URL
 - Deployed at: https://frontend-assignment-ffnu.vercel.app/

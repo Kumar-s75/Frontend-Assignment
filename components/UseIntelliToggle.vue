@@ -1,13 +1,13 @@
 <template>
   <section class="py-[120px] bg-white">
-    <div class="max-w-[1920px] mx-auto px-[120px] xl:px-[120px] lg:px-[80px] sm:px-6 flex flex-col items-center gap-[159px]">
+    <div class="max-w-[1920px] mx-auto px-[120px] flex flex-col items-center gap-[159px]">
       <!-- Title -->
       <div class="w-full">
         <h2 class="text-center text-[40px] font-bold text-transparent bg-clip-text text-gradient-hero">Why Teams Use IntelliToggle</h2>
       </div>
 
       <!-- Three feature points -->
-      <div class="flex justify-center gap-[94px] w-full xl:gap-[94px] lg:gap-[64px] sm:flex-col sm:items-center">
+      <div class="flex justify-center gap-[94px] w-full">
         <div class="w-[402px] lg:w-[360px] flex flex-col gap-12">
           <div class="relative w-[129px] h-[118px] rounded-[8px] bg-[#EDECF6]">
             <div class="absolute left-[35px] top-[35px] w-12 h-12">
@@ -47,10 +47,10 @@
       </div>
 
       <!-- CTA bar -->
-      <div class="w-[1394px] bg-[#EDECF6] rounded-[12px] relative px-8 py-4 flex items-center justify-between xl:w-[1394px] lg:w-full sm:flex-col sm:gap-4 sm:text-center">
+      <div class="w-[1394px] bg-[#EDECF6] rounded-[12px] relative px-8 py-4 flex items-center justify-between">
         <span class="absolute inset-0 rounded-[12px] border border-[#42389e] shadow-[0_0_10px_10px_rgba(0,0,0,0.05)]"></span>
-        <p class="text-[24px] text-[#5F5F60] lg:text-[20px]"><span class="text-[#0E121B]">Read a 2-min case note:</span> How a sample Flutter app shipped faster with IntelliToggle</p>
-        <button class="h-[55px] w-[184px] rounded-[8px] bg-[#F9A71E] text-transparent bg-clip-text text-gradient-hero text-[18px] font-semibold shadow-[0_0_10px_10px_rgba(0,0,0,0.05)] lg:h-[51px] lg:w-[172px] lg:text-[16px]">Read Now</button>
+        <p class="text-[24px] text-[#5F5F60]"><span class="text-[#0E121B]">Read a 2-min case note:</span> How a sample Flutter app shipped faster with IntelliToggle</p>
+        <button class="h-[55px] w-[184px] rounded-[8px] bg-[#F9A71E] text-transparent bg-clip-text text-gradient-hero text-[18px] font-semibold shadow-[0_0_10px_10px_rgba(0,0,0,0.05)]">Read Now</button>
       </div>
     </div>
   </section>

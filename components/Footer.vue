@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-[#ecebf5]">
-    <div class="max-w-[1920px] mx-auto px-[120px] py-[100px] xl:px-[120px] lg:px-[80px] sm:px-6">
-      <div class="flex items-center justify-between w-full sm:flex-col sm:items-start sm:gap-10">
+    <div class="max-w-[1920px] mx-auto px-[120px] py-[100px]">
+      <div class="flex items-center justify-between w-full">
         <!-- Company Info Section -->
         <div class="w-[359px]">
           <div class="flex items-center gap-3 mb-2">

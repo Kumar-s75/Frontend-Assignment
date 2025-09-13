@@ -1,6 +1,6 @@
 <template>
   <section class="py-[120px] bg-white">
-    <div class="max-w-[1920px] mx-auto px-[120px] xl:px-[120px] lg:px-[80px] sm:px-6">
+    <div class="max-w-[1920px] mx-auto px-[120px]">
       <!-- Header per Figma -->
       <div class="text-center mb-12">
         <h2 class="text-[40px] font-bold text-transparent bg-clip-text text-gradient-hero">Dart-Powered Feature Flag</h2>
@@ -11,8 +11,8 @@
       </div>
 
       <!-- Comparison table card -->
-      <div class="bg-[#EDECF6] rounded-[8px] shadow-[0_0_10px_10px_rgba(0,0,0,0.05)] border border-[#42389e] overflow-hidden sm:overflow-x-auto">
-        <div class="min-w-[768px]">
+      <div class="bg-[#EDECF6] rounded-[8px] shadow-[0_0_10px_10px_rgba(0,0,0,0.05)] border border-[#42389e] overflow-hidden">
+        <div>
         <!-- header row -->
         <div class="bg-gradient-to-b from-[#42389e] to-[#0f1026] text-[#FEFEFF] flex">
           <div class="w-[378px] p-[10px] font-sans text-[24px] font-semibold lg:w-[320px] lg:text-[22px]">Features</div>

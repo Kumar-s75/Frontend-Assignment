@@ -1,7 +1,7 @@
 <template>
-  <nav class="bg-transparent absolute inset-x-0 top-0 z-50 h-[92px] xl:h-[92px] lg:h-[88px] sm:h-[72px]">
-    <div class="max-w-[1920px] mx-auto px-[120px] h-full xl:px-[120px] lg:px-[80px] sm:px-6">
-      <div class="flex justify-between items-center h-full">
+  <nav class="bg-transparent absolute inset-x-0 top-0 z-50 py-6">
+    <div class="max-w-[1920px] mx-auto px-[120px]">
+      <div class="flex justify-between items-center">
         <!-- Logo -->
         <NuxtLink to="/" class="flex items-center gap-3" style="margin-left: -2px;">
           <img src="/images/it-mark-white.svg" alt="IntelliToggle" class="h-[50.8px] w-[54.5px] sm:h-8 sm:w-8" />
