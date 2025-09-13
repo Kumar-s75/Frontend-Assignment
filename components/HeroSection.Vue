@@ -8,6 +8,8 @@
       background-position: center top, center top;
       background-size: cover, cover;"
   >
+    <!-- Bottom-right diagonal wedge to match Figma -->
+    <div class="absolute bottom-0 right-0 w-full z-0" style="height:420px; background:#ffffff; clip-path: polygon(62% 0, 100% 16%, 100% 100%, 0% 100%, 0% 64%);"></div>
 
     <!-- Content -->
     <div class="relative max-w-[1920px] mx-auto px-[120px] z-10">
