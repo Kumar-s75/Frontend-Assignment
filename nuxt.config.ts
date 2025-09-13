@@ -4,7 +4,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],
   css: ["@/assets/css/tailwind.css"],
-  routeRules: {
-    '/': { ssr: true },
-  },
+  // Use Nuxt auto-import for components
+  components: [{ path: '~/components', pathPrefix: false }],
 })
