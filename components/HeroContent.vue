@@ -1,5 +1,5 @@
 <template>
-  <div class="contents relative size-full">
+  <div class="relative size-full">
     <!-- Main content -->
     <div class="relative flex flex-col gap-6 items-center justify-start w-[1026px]">
       <!-- Title and subtitle -->
