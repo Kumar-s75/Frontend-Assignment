@@ -1,8 +1,8 @@
 <template>
-  <section class="relative bg-gradient-to-b from-[#42389e] to-[#0f1026] isolate" style="min-height:1177px;">
+  <section class="relative isolate" style="min-height:1177px;background:linear-gradient(180deg,#42389e 0%,#0f1026 100%);">
     <!-- Background Vector -->
-    <div class="absolute h-[1177px] left-0 top-0 w-full z-0">
-      <img src="/images/hero-background.svg" alt="Background" class="block max-w-none size-full" />
+    <div class="absolute inset-0 z-0 pointer-events-none">
+      <img src="/images/hero-background.svg" alt="Background" class="block w-full h-full object-cover" />
     </div>
 
     <!-- Content -->
