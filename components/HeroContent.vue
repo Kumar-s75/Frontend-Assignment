@@ -1,7 +1,7 @@
 <template>
   <div class="contents relative size-full">
     <!-- Main content -->
-    <div class="absolute flex flex-col gap-6 items-center justify-start left-0 top-0 w-[1026px]">
+    <div class="relative flex flex-col gap-6 items-center justify-start w-[1026px]">
       <!-- Title and subtitle -->
       <div class="flex flex-col gap-1.5 items-center justify-start leading-[0] not-italic text-center text-white size-full">
         <div class="flex flex-col font-sans font-bold justify-center min-w-full text-[44px]" style="width: min-content;">
