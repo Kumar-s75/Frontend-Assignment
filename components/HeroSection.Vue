@@ -25,7 +25,12 @@
 <script setup>
 import HeroContent from './HeroContent.vue'
 import HeroCard from './HeroCard.vue'
-import { onMounted } from 'vue'
+import { onMounted, onServerPrefetch } from 'vue'
+
+onServerPrefetch(() => {
+  // SSR diagnostics
+  console.info('[DIAG][SSR] rendering HeroSection')
+})
 
 onMounted(() => {
   // eslint-disable-next-line no-console
