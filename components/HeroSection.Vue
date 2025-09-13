@@ -1,7 +1,7 @@
 <template>
-  <section class="relative">
+  <section class="relative bg-gradient-to-b from-[#42389e] to-[#0f1026]">
     <!-- Background Vector -->
-    <div class="absolute h-[1177px] left-0 top-0 w-[1920px]">
+    <div class="absolute h-[1177px] left-0 top-0 w-full">
       <img src="/images/hero-background.svg" alt="Background" class="block max-w-none size-full" />
     </div>
 
