@@ -1,9 +1,13 @@
 <template>
-  <section class="relative isolate" style="min-height:1177px;background:linear-gradient(180deg,#42389E 0%, #42389E 30%, #2F2E68 60%, #0F1026 100%);">
-    <!-- Background Vector restored -->
-    <div class="absolute inset-0 z-0 pointer-events-none">
-      <img src="/images/hero-background.svg" alt="Background" class="block w-full h-full object-cover" />
-    </div>
+  <section
+    class="relative isolate"
+    style="min-height:1177px; background:
+      linear-gradient(180deg,#42389E 0%, #42389E 30%, #2F2E68 60%, #0F1026 100%),
+      url('/images/hero-background.svg');
+      background-repeat:no-repeat, no-repeat;
+      background-position: center top, center top;
+      background-size: cover, cover;"
+  >
 
     <!-- Content -->
     <div class="relative max-w-[1920px] mx-auto px-[120px] z-10">
