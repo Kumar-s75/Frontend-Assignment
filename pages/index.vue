@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navbar />
-    <HeroSection />
+    <HeroTop />
     <Trusted />
     <WhatIs />
     <OpenFeatureSection />
