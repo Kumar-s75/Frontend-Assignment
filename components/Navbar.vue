@@ -4,7 +4,7 @@
       <div class="flex justify-between items-center">
         <!-- Logo -->
         <NuxtLink to="/" class="flex items-center gap-3" style="margin-left: -2px;">
-          <img src="/images/it-mark-white.svg" alt="IntelliToggle" class="h-[50.8px] w-[54.5px] sm:h-8 sm:w-8" />
+          <img src="/images/it-wordmark-white.svg" alt="IntelliToggle" class="h-[50.8px] w-[54.5px] sm:h-8 sm:w-8" />
           <span class="font-merriweatherSans font-bold text-[24px] text-white sm:text-[18px]">IntelliToggle</span>
         </NuxtLink>
 

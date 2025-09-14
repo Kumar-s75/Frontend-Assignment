@@ -6,12 +6,14 @@
       <div class="flex flex-col gap-1.5 items-center justify-start leading-[0] not-italic text-center text-white size-full">
         <div class="flex flex-col font-sans font-bold justify-center min-w-full text-[44px]" style="width: min-content;">
           <p class="leading-[80px] whitespace-pre-wrap">
-            The First<br>Feature Flag With DartCodeAI
+            The First <span class="bg-[#f9a71e] text-black px-2 py-1 rounded-md">
+    Dart-Native
+  </span> Feature Flag <br> With DartCodeAI
           </p>
         </div>
         <div class="capitalize flex flex-col font-sans font-semibold justify-center leading-[normal] text-[22px] w-[716.227px]">
           <p class="mb-0 text-[#fefeff]">
-            Feature flags built for Dart. Ship faster, roll back safely, and scale with AI-powered delivery
+            Feature flags built for Dart, Ship faster, roll back   <br>   safely, and scale with AI-powered delivery
           </p>
           <p class="font-sans font-bold text-[#f9a71e]">Starting at just $1/month</p>
         </div>
@@ -29,8 +31,8 @@
             </span>
           </button>
         </div>
-        <button class="border border-[#f9a71e] px-6 py-3 rounded-[8px] shadow-[0px_0px_10px_10px_rgba(0,0,0,0.05)] relative flex-1">
-          <span class="font-sans font-semibold text-[22px] text-[#f9a71e]">
+        <button class="border border-[#f9a71e] px-6 py-3 rounded-[10px] shadow-[0px_0px_10px_10px_rgba(0,0,0,0.05)] relative flex-1">
+          <span class="font-sans font-semibold text-[20px] text-[#f9a71e]">
             Join AI Early Access
           </span>
         </button>

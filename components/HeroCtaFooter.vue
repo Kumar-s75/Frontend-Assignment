@@ -1,6 +1,6 @@
 <template>
-  <section class="pt-[120px] pb-0">
-    <div class="max-w-[1920px] mx-auto px-0 flex flex-col items-center gap-[200px]">
+  <section class="pt-[120px] pb-0 bg-white">
+    <div class="max-w-[1920px] mx-auto px-0 flex flex-col items-center gap-[200px] bg-white">
       <!-- Gradient card with pattern and CTAs -->
       <div class="w-[1384px] rounded-[12px] shadow-[0_0_10px_10px_rgba(0,0,0,0.05)] bg-gradient-to-b from-[#42389e] to-[#0f1026] relative overflow-hidden px-[29px]">
         <div class="absolute inset-0 opacity-[0.11]" style="background-image: radial-gradient(circle at 25% 25%, rgba(255,255,255,0.1) 2px, transparent 2px), radial-gradient(circle at 75% 75%, rgba(255,255,255,0.1) 2px, transparent 2px); background-size: 20px 20px;"></div>
